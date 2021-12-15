@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.2
 import PackageDescription
 
 let package = Package(
@@ -10,8 +10,9 @@ let package = Package(
         .executable(name: "Feather", targets: ["Feather"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/vapor/vapor", from: "4.41.0"),
         /// feather core
-        .package(url: "https://github.com/FeatherCMS/feather-core", .branch("main")), //from: "1.0.0-beta"),
+        .package(url: "https://github.com/tomlee130/feather-core", .branch("main")), //from: "1.0.0-beta"),
         /// drivers
         .package(url: "https://github.com/vapor/fluent-sqlite-driver", from: "4.0.0"),
         .package(url: "https://github.com/vapor/fluent-mysql-driver", from: "4.0.0"),
@@ -19,7 +20,7 @@ let package = Package(
         .package(url: "https://github.com/binarybirds/liquid-local-driver", from: "1.2.0"),
         /// modules
         .package(url: "https://github.com/FeatherCMS/redirect-module", .branch("main")),//from: "1.0.0-beta"),
-        .package(url: "https://github.com/FeatherCMS/blog-module", .branch("main")),//from: "1.0.0-beta"),
+        .package(url: "https://github.com/tomlee130/blog-module", .branch("main")),//from: "1.0.0-beta"),
         .package(url: "https://github.com/FeatherCMS/analytics-module", .branch("main")),//from: "1.0.0-beta"),
         .package(url: "https://github.com/FeatherCMS/aggregator-module", .branch("main")),//from: "1.0.0-beta"),
         .package(url: "https://github.com/FeatherCMS/sponsor-module", .branch("main")),//from: "1.0.0-beta"),
