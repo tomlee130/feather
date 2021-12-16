@@ -12,7 +12,7 @@
       },
       {
         "package": "aggregator-module",
-        "repositoryURL": "https://github.com/FeatherCMS/aggregator-module",
+        "repositoryURL": "https://github.com/tf-swufe-org/aggregator-module",
         "state": {
           "branch": "main",
           "revision": "c621b4656321772a5d9eaf1f9a10c6931bb47ec0",
@@ -21,10 +21,10 @@
       },
       {
         "package": "analytics-module",
-        "repositoryURL": "https://github.com/FeatherCMS/analytics-module",
+        "repositoryURL": "https://github.com/tf-swufe-org/analytics-module",
         "state": {
           "branch": "main",
-          "revision": "bee0f185f708d672b96e14fef36b8862c8f41b5e",
+          "revision": "14b87479d77e32c6c982c2d0be5f53dc98c8412d",
           "version": null
         }
       },
@@ -150,8 +150,8 @@
         "repositoryURL": "https://github.com/tid-kijyun/Kanna.git",
         "state": {
           "branch": null,
-          "revision": "c657fb9f5827ef138068215c76ad0bb62bbc92da",
-          "version": "5.2.4"
+          "revision": "f9e4922223dd0d3dfbf02ca70812cf5531fc0593",
+          "version": "5.2.7"
         }
       },
       {
@@ -183,7 +183,7 @@
       },
       {
         "package": "markdown-module",
-        "repositoryURL": "https://github.com/FeatherCMS/markdown-module",
+        "repositoryURL": "https://github.com/tf-swufe-org/markdown-module",
         "state": {
           "branch": "main",
           "revision": "0660f6a378734bb590add25864dbd62d263f0fad",
@@ -237,7 +237,7 @@
       },
       {
         "package": "redirect-module",
-        "repositoryURL": "https://github.com/FeatherCMS/redirect-module",
+        "repositoryURL": "https://github.com/tf-swufe-org/redirect-module",
         "state": {
           "branch": "main",
           "revision": "caf1ee77070e8fdbb70373ec540955ea01d5d422",
@@ -267,13 +267,13 @@
         "repositoryURL": "https://github.com/JohnSundell/Splash",
         "state": {
           "branch": null,
-          "revision": "81de0389558ad40579027735841593b21a511fa8",
-          "version": "0.15.0"
+          "revision": "7f4df436eb78fe64fe2c32c58006e9949fa28ad8",
+          "version": "0.16.0"
         }
       },
       {
         "package": "sponsor-module",
-        "repositoryURL": "https://github.com/FeatherCMS/sponsor-module",
+        "repositoryURL": "https://github.com/tf-swufe-org/sponsor-module",
         "state": {
           "branch": "main",
           "revision": "e017b6e65c431509160ae307a68b9633c9d3d012",
@@ -390,7 +390,7 @@
       },
       {
         "package": "swifty-module",
-        "repositoryURL": "https://github.com/FeatherCMS/swifty-module",
+        "repositoryURL": "https://github.com/tf-swufe-org/swifty-module",
         "state": {
           "branch": "main",
           "revision": "b13c81bb8334939b8c9582012a138dcd86a36249",

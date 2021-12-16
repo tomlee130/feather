@@ -3,6 +3,11 @@ WORKDIR /opt/feather
 
 COPY . .
 
+
+RUN sed -i "s/archive.ubuntu./mirrors.aliyun./g" /etc/apt/sources.list 
+RUN sed -i "s/deb.debian.org/mirrors.aliyun.com/g" /etc/apt/sources.list 
+RUN sed -i "s/security.debian.org/mirrors.aliyun.com\/debian-security/g" /etc/apt/sources.list
+
 ## Install required dependencies for the build
 RUN apt-get update && apt-get install libxml2-dev libsqlite3-dev -y
 

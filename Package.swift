@@ -19,13 +19,13 @@ let package = Package(
         .package(url: "https://github.com/vapor/fluent-postgres-driver", from: "2.0.0"),
         .package(url: "https://github.com/binarybirds/liquid-local-driver", from: "1.2.0"),
         /// modules
-        .package(url: "https://github.com/FeatherCMS/redirect-module", .branch("main")),//from: "1.0.0-beta"),
-        .package(url: "https://github.com/tomlee130/blog-module", .branch("main")),//from: "1.0.0-beta"),
-        .package(url: "https://github.com/FeatherCMS/analytics-module", .branch("main")),//from: "1.0.0-beta"),
-        .package(url: "https://github.com/FeatherCMS/aggregator-module", .branch("main")),//from: "1.0.0-beta"),
-        .package(url: "https://github.com/FeatherCMS/sponsor-module", .branch("main")),//from: "1.0.0-beta"),
-        .package(url: "https://github.com/FeatherCMS/swifty-module", .branch("main")),//from: "1.0.0-beta"),
-        .package(url: "https://github.com/FeatherCMS/markdown-module", .branch("main")),//from: "1.0.0-beta"),
+        .package(url: "https://github.com/tf-swufe-org/redirect-module", .branch("main")),//from: "1.0.0-beta"),
+        .package(url: "https://github.com/tomlee130/blog-module", .branch("main")),
+        .package(url: "https://github.com/tf-swufe-org/analytics-module", .branch("main")),//from: "1.0.0-beta"),
+        .package(url: "https://github.com/tf-swufe-org/aggregator-module", .branch("main")),//from: "1.0.0-beta"),
+        .package(url: "https://github.com/tf-swufe-org/sponsor-module", .branch("main")),//from: "1.0.0-beta"),
+        .package(url: "https://github.com/tf-swufe-org/swifty-module", .branch("main")),//from: "1.0.0-beta"),
+        .package(url: "https://github.com/tf-swufe-org/markdown-module", .branch("main")),//from: "1.0.0-beta"),
     ],
     targets: [
         .target(name: "Feather", dependencies: [
